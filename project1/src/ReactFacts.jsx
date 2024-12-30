@@ -54,6 +54,10 @@ root.render(
  * 
  * Then render an instance of the Header component inside
  * the Page component where the 'header' used to be
+ * 
+ * Continuation challenge:
+ * 
+ * create main and footer components!
  */
 
 function Page() {
@@ -61,18 +65,8 @@ function Page() {
         // same as a Fragment which is the same as a div
         <>
             <Header />
-            <main>
-            <h1>I am excited to learn React because:</h1>
-                <ol>
-                    <li>Getting better as a SWD!</li>
-                    <li>Adding more tools to my kit!</li>
-                </ol>
-            </main>
-            <footer>
-                <small>
-                    © 2024 Almanzar development. All rights reserved.
-                </small>
-            </footer>
+            <MainContent />
+            <Footer />
         </>
     )
 }
@@ -82,5 +76,27 @@ function Header() {
         <header>
             <img src={reactLogo} alt="React Logo" width="40px" />
         </header>
+    )
+}
+
+function MainContent() {
+    return (
+        <main>
+            <h1>I am excited to learn React because:</h1>
+            <ol>
+                <li>Getting better as a SWD!</li>
+                <li>Adding more tools to my kit!</li>
+            </ol>
+        </main>
+    )
+}
+
+function Footer() {
+    return (
+        <footer>
+            <small>
+                © 2024 Almanzar development. All rights reserved.
+            </small>
+        </footer>
     )
 }
