@@ -71,10 +71,23 @@ function Page() {
     )
 }
 
+/**
+ * Challenge:
+ * 
+ * 1. Add a `nav` > `ul` > `li` (x3). Items should say:
+ * "Pricing", "About", and "Contact"
+ */
 function Header() {
     return (
         <header>
             <img src={reactLogo} alt="React Logo" width="40px" />
+            <nav>
+                <ul>
+                    <li>Pricing</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
         </header>
     )
 }
