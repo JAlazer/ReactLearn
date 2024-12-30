@@ -12,6 +12,9 @@
 import { createRoot } from "react-dom/client"
 import reactLogo from './assets/react.svg'
 
+// now to add styling!
+import "./ReactFactStyle.css"
+
 const root = createRoot(document.getElementById("root"))
 
 root.render(
@@ -77,12 +80,15 @@ function Page() {
  * 1. Add a `nav` > `ul` > `li` (x3). Items should say:
  * "Pricing", "About", and "Contact"
  */
+
+
+
 function Header() {
     return (
         <header>
             <img src={reactLogo} alt="React Logo" width="40px" />
             <nav>
-                <ul>
+                <ul className="nav-list">
                     <li>Pricing</li>
                     <li>About</li>
                     <li>Contact</li>
