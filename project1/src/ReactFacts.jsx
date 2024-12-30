@@ -65,7 +65,7 @@ function Page() {
                 <small>
                     © 2024 Almanzar development. All rights reserved.
                 </small>
-                </footer>
+            </footer>
         </div>
     )
 }
