@@ -81,17 +81,35 @@ function Page() {
  * "Pricing", "About", and "Contact"
  */
 
-
+/**
+ * Challenge:
+ * 
+ * Use flexbox: line up the li's horizontally and put them inline
+ * with the React logo
+ * 
+ * Note: don't select any elements, but use classes for all styling
+ * 
+ * Learned: 
+ * display: flex
+ * justify-content: space-between
+ * margin-left: 10px
+ * font-size: 1.1rem
+ * 
+ * Now move the width attribute to it's own place within the CSS file created.
+ * This time with a width of 55px
+ * 
+ * Now to practice styling!
+ */
 
 function Header() {
     return (
-        <header>
-            <img src={reactLogo} alt="React Logo" width="40px" />
+        <header className="react-head">
+            <img className="react-logo" src={reactLogo} alt="React Logo" />
             <nav>
                 <ul className="nav-list">
-                    <li>Pricing</li>
-                    <li>About</li>
-                    <li>Contact</li>
+                    <li className="nav-list-item">Pricing</li>
+                    <li className="nav-list-item">About</li>
+                    <li className="nav-list-item">Contact</li>
                 </ul>
             </nav>
         </header>
