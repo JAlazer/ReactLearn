@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     background-color: navy;
+    border-style: solid;
 }
 
 .react-logo {
@@ -18,5 +19,25 @@
     font-size: 1.1rem;
     color: white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content {
+    border-style: dotted;
+    background-color: navajowhite;
+}
+
+.content h1 {
+    color: navy;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content-list {
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Ensure the list remains vertical */
+    align-items: center; /* Center the list items horizontally */
+    justify-content: center; /* Optional: Align content vertically if needed */
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
 }
 
