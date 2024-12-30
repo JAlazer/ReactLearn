@@ -7,13 +7,13 @@
 Corrected: a function that returns React elements.
 
 2. What's wrong with the following code?
-...
+```
 function myComponent() {
     return (
         <small>I'm tiny text!</small>
     )
 }
-...
+```
 > The only thing I can think of is the fact that the name of the method is not in Pascal case!
 
 
@@ -30,5 +30,4 @@ function Header() {
 root.render(Header())
 ```
 > The way the Header component is being rendered in the root is not correct convention.
-It should be in <Header />
-
+It should be in `<Header />`
