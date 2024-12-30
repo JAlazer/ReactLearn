@@ -25,7 +25,7 @@ root.render(
             <li>Is maintained by Meta</li>
             <li>Powers thousands of enterprise apps, including mobile apps</li>
         </ul>
-        <h1>I am excited to learn React because:</h1>
+        
         <Page />
     </main>
 )
@@ -39,13 +39,27 @@ root.render(
  * excited to be learning react :)
  * 
  * Render the Page component.
+ * 
+ * Part 2:
+ * 
+ * Add a <header> element with an <img /> with the React logo
+ * Add an <h1> elelment with some text describing the page
+ *      place it above the the ol
+ * add a <footer> after the ol that has rights reserved
  */
 
 function Page() {
     return (
-        <ol>
-            <li>Getting better as a SWD!</li>
-            <li>Adding more tools to my kit!</li>
-        </ol>
+        <div>
+            <header>
+                <img src={reactLogo} alt="React Logo" width="40px" />
+            </header>
+            <h1>I am excited to learn React because:</h1>
+            <ol>
+                <li>Getting better as a SWD!</li>
+                <li>Adding more tools to my kit!</li>
+            </ol>
+            <footer>© 2024 Almanzar development. All rights reserved.</footer>
+        </div>
     )
 }
