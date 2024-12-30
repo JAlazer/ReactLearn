@@ -15,6 +15,9 @@ import reactLogo from './assets/react.svg'
 // now to add styling!
 import "./ReactFactStyle.css"
 
+// adding components!
+import Header from "./Header"
+
 const root = createRoot(document.getElementById("root"))
 
 root.render(
@@ -33,35 +36,7 @@ root.render(
     </main>
 )
 
-// new challenge
 
-/**
- * Create a custom "Page" component
- * 
- * It should return an ordered list with the reasons why you're
- * excited to be learning react :)
- * 
- * Render the Page component.
- * 
- * Part 2:
- * 
- * Add a <header> element with an <img /> with the React logo
- * Add an <h1> elelment with some text describing the page
- *      place it above the the ol
- * add a <footer> after the ol that has rights reserved
- * 
- * Mini challenge:
- * 
- * Move the header element from the Page component into 
- * its own component called "Header"
- * 
- * Then render an instance of the Header component inside
- * the Page component where the 'header' used to be
- * 
- * Continuation challenge:
- * 
- * create main and footer components!
- */
 
 function Page() {
     return (
@@ -101,20 +76,7 @@ function Page() {
  * Now to practice styling!
  */
 
-function Header() {
-    return (
-        <header className="react-head">
-            <img className="react-logo" src={reactLogo} alt="React Logo" />
-            <nav>
-                <ul className="nav-list">
-                    <li className="nav-list-item">Pricing</li>
-                    <li className="nav-list-item">About</li>
-                    <li className="nav-list-item">Contact</li>
-                </ul>
-            </nav>
-        </header>
-    )
-}
+
 
 function MainContent() {
     return (
