@@ -41,5 +41,18 @@ function Page() {
     )
 }
 
+/**
+ * Challenge: Separate what needs to be created for ReactFacts
+ * Two components within an App component
+ * Header:
+ *      img
+ *      text - could be a span to keep img and text inline
+ * 
+ * MainContent:
+ *      h1
+ *      ul - with 5 li's
+ *      img 
+ * 
+ */
 
 
