@@ -1,13 +1,3 @@
-/**
- * Challenge: Starting from scratch, build and render the 
- * HTML for our section project. Check the Google slide for
- * what you're trying to build.
- * 
- * adding styling later
- * 
- * Hints:
- * set width attribute of the image element just like in HTML. In the slide, it is set to 40px
- */
 
 import { createRoot } from "react-dom/client"
 import reactLogo from './assets/react.svg'
