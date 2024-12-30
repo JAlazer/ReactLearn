@@ -42,10 +42,11 @@ root.render(
 
 
 root.render(
+    // specifc container, which is better than div to denote this is where main stuff exists
     <main>
         <SayHi />,
         <img src="/vite.svg" />,
         <h1>Need to keep Reacting!</h1>
     </main>
 )
-    
+
