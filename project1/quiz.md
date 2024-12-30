@@ -32,3 +32,5 @@ root.render(Header())
 ```
 > The way the Header component is being rendered in the root is not correct convention.
 It should be in `<Header />`
+
+# Quiz 3

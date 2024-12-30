@@ -46,14 +46,21 @@ root.render(
  * Add an <h1> elelment with some text describing the page
  *      place it above the the ol
  * add a <footer> after the ol that has rights reserved
+ * 
+ * Mini challenge:
+ * 
+ * Move the header element from the Page component into 
+ * its own component called "Header"
+ * 
+ * Then render an instance of the Header component inside
+ * the Page component where the 'header' used to be
  */
 
 function Page() {
     return (
-        <div>
-            <header>
-                <img src={reactLogo} alt="React Logo" width="40px" />
-            </header>
+        // same as a Fragment which is the same as a div
+        <>
+            <Header />
             <main>
             <h1>I am excited to learn React because:</h1>
                 <ol>
@@ -66,6 +73,14 @@ function Page() {
                     © 2024 Almanzar development. All rights reserved.
                 </small>
             </footer>
-        </div>
+        </>
+    )
+}
+
+function Header() {
+    return (
+        <header>
+            <img src={reactLogo} alt="React Logo" width="40px" />
+        </header>
     )
 }
