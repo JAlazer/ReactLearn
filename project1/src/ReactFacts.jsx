@@ -54,12 +54,18 @@ function Page() {
             <header>
                 <img src={reactLogo} alt="React Logo" width="40px" />
             </header>
+            <main>
             <h1>I am excited to learn React because:</h1>
-            <ol>
-                <li>Getting better as a SWD!</li>
-                <li>Adding more tools to my kit!</li>
-            </ol>
-            <footer>© 2024 Almanzar development. All rights reserved.</footer>
+                <ol>
+                    <li>Getting better as a SWD!</li>
+                    <li>Adding more tools to my kit!</li>
+                </ol>
+            </main>
+            <footer>
+                <small>
+                    © 2024 Almanzar development. All rights reserved.
+                </small>
+                </footer>
         </div>
     )
 }
