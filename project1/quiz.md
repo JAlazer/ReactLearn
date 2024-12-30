@@ -4,7 +4,8 @@
 
 1. What is a React component?
 > Basically a function, which takes a chunk of JSX and is allowed to be used for later.
->Corrected: a function that returns React elements.
+
+> Corrected: a function that returns React elements.
 
 2. What's wrong with the following code?
 ```
