@@ -17,6 +17,8 @@ import "./ReactFactStyle.css"
 
 // adding components!
 import Header from "./Header"
+import MainContent from "./MainContent"
+import Footer from "./Footer"
 
 const root = createRoot(document.getElementById("root"))
 
@@ -49,53 +51,5 @@ function Page() {
     )
 }
 
-/**
- * Challenge:
- * 
- * 1. Add a `nav` > `ul` > `li` (x3). Items should say:
- * "Pricing", "About", and "Contact"
- */
-
-/**
- * Challenge:
- * 
- * Use flexbox: line up the li's horizontally and put them inline
- * with the React logo
- * 
- * Note: don't select any elements, but use classes for all styling
- * 
- * Learned: 
- * display: flex
- * justify-content: space-between
- * margin-left: 10px
- * font-size: 1.1rem
- * 
- * Now move the width attribute to it's own place within the CSS file created.
- * This time with a width of 55px
- * 
- * Now to practice styling!
- */
 
 
-
-function MainContent() {
-    return (
-        <main className="content">
-            <h1>I am excited to learn React because:</h1>
-            <ol className="content-list">
-                <li>Getting better as a SWD!</li>
-                <li>Adding more tools to my kit!</li>
-            </ol>
-        </main>
-    )
-}
-
-function Footer() {
-    return (
-        <footer>
-            <small>
-                © 2024 Almanzar development. All rights reserved.
-            </small>
-        </footer>
-    )
-}
