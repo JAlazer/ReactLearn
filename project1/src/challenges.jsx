@@ -9,6 +9,8 @@ function SayHi() {
    )
 }
 
+/*
+
 // Chllenge: create first custom react component!
 // call it "MainContent" and return h1 element which says
 // "React is great!"
@@ -25,4 +27,25 @@ root.render(
         <SayHi />,
         <MainContent />
     </div>
-    )
+)
+    
+*/
+
+/**
+ * Challenge: set up a new React app from scratch!
+ * Hints:
+ * 1. Need to import the method to create a new root
+ *    from the "react-dom/client"
+ * 2. Use that root to render some JSX. For now, just render
+ *    an h1 element that says anything you want
+ */
+
+
+root.render(
+    <main>
+        <SayHi />,
+        <img src="/vite.svg" />,
+        <h1>Need to keep Reacting!</h1>
+    </main>
+)
+    
