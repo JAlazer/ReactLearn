@@ -1,9 +1,23 @@
+/**
+ * Challenge:
+ * 
+ * Match the style given from Bob Ziroll's design
+ * 
+ * Hints:
+ * - render a header with a nav; the image and "ReactFacts" are inside the nav
+ * -
+ */
 
+// import react logo
+import reactLogo from "../assets/react.svg"
 
 export default function Navbar() {
     return (
-        <h1>
-            This is the Navbar!
-        </h1>
+        <header className="nav-bar-head">
+            <nav className="nav-bar-navigation">
+                <img src={reactLogo} className="nav-bar-img" alt="React Logo" />
+                <h1 className="nav-bar-title">ReactFacts</h1>
+            </nav>
+        </header>
     )
 }
