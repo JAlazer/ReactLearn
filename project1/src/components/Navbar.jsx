@@ -10,6 +10,7 @@
 
 // import react logo
 import reactLogo from "../assets/react.svg"
+import "../ReactFactStyle.css"
 
 export default function Navbar() {
     return (

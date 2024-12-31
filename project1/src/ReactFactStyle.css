@@ -1,43 +1,21 @@
-.react-head {
-    display: flex;
-    justify-content: space-between;
-    background-color: navy;
+.nav-bar-head {
+    background-color: rgba(33, 34, 42, 1);
     border-style: solid;
 }
 
-.react-logo {
-    width: 55px;
-}
-
-.nav-list {
-    list-style: none;
+.nav-bar-navigation {
     display: flex;
 }
 
-.nav-list-item {
-    margin-left: 10px;
-    font-size: 1.1rem;
-    color: white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.nav-bar-img {
+    margin-left: 16px;
+    width: 32px;
 }
 
-.content {
-    border-style: solid;
-    background-color: navajowhite;
-}
-
-.content h1 {
-    color: navy;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.content-list {
-    display: flex; /* Use flexbox for centering */
-    flex-direction: column; /* Ensure the list remains vertical */
-    align-items: center; /* Center the list items horizontally */
-    justify-content: center; /* Optional: Align content vertically if needed */
-    
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.5rem;
+.nav-bar-title {
+    color: rgba(97, 218, 251, 1);
+    margin-left: 8px;
+    font-family: 'Inter';
+    font-weight: 700;
 }
 
