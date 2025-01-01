@@ -17,7 +17,7 @@ export default function Navbar() {
         <header className="nav-bar-head">
             <nav className="nav-bar-navigation">
                 <img src={reactLogo} className="nav-bar-img" alt="React Logo" />
-                <h1 className="nav-bar-title">ReactFacts</h1>
+                <span className="nav-bar-title">ReactFacts</span>
             </nav>
         </header>
     )

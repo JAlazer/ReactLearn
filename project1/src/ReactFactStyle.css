@@ -1,21 +1,30 @@
+body {
+    margin: 0;
+    font-family: 'Inter', 'Sans Serif';
+}
+
 .nav-bar-head {
     background-color: rgba(33, 34, 42, 1);
     border-style: solid;
+    height: 90px;
+    padding: 30px 25px;
 }
 
 .nav-bar-navigation {
     display: flex;
+    align-items: center;
+    height: 100%;
 }
 
 .nav-bar-img {
-    margin-left: 16px;
     width: 32px;
 }
 
 .nav-bar-title {
     color: rgba(97, 218, 251, 1);
     margin-left: 8px;
-    font-family: 'Inter';
+    
     font-weight: 700;
+    font-size: 1.8rem;
 }
 
