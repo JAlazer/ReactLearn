@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+.travel-header {
+    background-color: rgba(245, 90, 90, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+}
+
+.travel-header > span {
+    font-family: inter, sans-serif;
+    margin-left: 8px;
+    color: white;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+.travel-header > img {
+    width: 24px;
+}
