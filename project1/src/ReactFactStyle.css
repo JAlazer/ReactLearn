@@ -31,6 +31,9 @@ body {
 
 .main {
     padding: 64px 32px;
+    background-image: url(./assets/reactjs-icon2.png);
+    background-repeat: no-repeat;
+    background-position: right 65%;
 }
 
 
@@ -48,5 +51,10 @@ body {
 
 .main-list li {
     padding-block: 12px;
+}
+
+.main-list li::marker {
+    color: rgba(97, 218, 251, 1);
+    font-size: 1.5rem;
 }
 
