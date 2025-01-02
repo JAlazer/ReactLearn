@@ -1,6 +1,8 @@
 body {
     margin: 0;
     font-family: 'Inter', 'Sans-Serif';
+    color: white;
+    background-color: rgba(40, 45, 53, 1);
 }
 
 .nav-bar-head {
@@ -28,29 +30,23 @@ body {
 }
 
 .main {
-    background-color: rgba(40, 45, 53, 1);
-    border-style: solid;
-    
+    padding: 64px 32px;
 }
 
-.main-header, .main-list {
-    color: rgba(255, 255, 255, 1);
-}
 
 .main-header {
-    font-weight: 700;
+    margin: 0;
     font-size: 2.4rem;
-    margin-left: 28px;
-    height: 40px;
 }
 
 .main-list {
     font-weight: 400;
     font-size: 1rem;
-    margin-left: 52px;
+    margin-top: 48px;
+    max-width: 400px;
 }
 
 .main-list li {
-    margin: 16px;
+    padding-block: 12px;
 }
 
