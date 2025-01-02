@@ -2,9 +2,9 @@
 
 export default function Main() {
     return (
-        <main>
-            <h1>Fun Facts about React!</h1>
-            <ul>
+        <main className="main">
+            <h1 className="main-header">Fun Facts about React!</h1>
+            <ul className="main-list">
                 <li>Was first released in 2013</li>
                 <li>Was Originally created by Jordan Walke</li>
                 <li>Has well over 100k stars on GitHub</li>
