@@ -1,16 +1,12 @@
 import Phone from "../assets/phone-icon.png" 
 import MailTo from "../assets/mail-icon.png" 
 
-export default function Contact(props) {
-    let image = props.img
-    let name = props.name
-    let phoneNumber = props.number 
-    let email = props.email
+export default function Contact({img, name, number, email}) {
 
     return (
         <article className="contact-card">
                 <img 
-                    src={image}
+                    src={img}
                     alt="Photo of Mr. Whiskerson"
                 />
                 <h3>{name}</h3>
@@ -19,7 +15,7 @@ export default function Contact(props) {
                         src={Phone}
                         alt="phone icon" 
                     />
-                    <p>{phoneNumber}</p>
+                    <p>{number}</p>
                 </div>
                 <div className="info-group">
                     <img 
