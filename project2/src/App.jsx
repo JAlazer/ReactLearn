@@ -1,12 +1,6 @@
 import Header from "./components/Header.jsx"
 import Entry from "./components/Entry.jsx"
-import Contact from "./components/Contact.jsx"
-
-import Whiskerson from "./assets/mr-whiskerson.png"
-import Felix from "./assets/felix.png"
-import Fluffy from "./assets/fluffykins.png"
-import Pumpkin from "./assets/pumpkin.png"
-
+import Joke from "./components/Jokes.jsx"
 
 export default function App() {
 
@@ -14,30 +8,15 @@ export default function App() {
         <>
             <Header />
             <Entry />
-            <Contact
-                img={Whiskerson}
-                name="Mr. Whiskerson"
-                number="(212)-555-1234"
-                email="mr.whiskaz@catnap.meow"
-            />
-            <Contact
-                img={Felix}
-                name="Felix"
-                number="(212)-555-1234"
-                email="mr.whiskaz@catnap.meow"
-            />
-            <Contact 
-                img={Fluffy}
-                name="Fluffy"
-                number="(212)-555-1234"
-                email="mr.whiskaz@catnap.meow"
-            />
-            <Contact 
-                img={Pumpkin}
-                name="Pumpkin"
-                number="(212)-555-1234"
-                email="mr.whiskaz@catnap.meow"
-            />
+           <Joke setup="What do you call a fake noodle?"
+                 punchline="An impasta!" />
+           <Joke setup="What do you call a skeleton without a name?"
+                 punchline="Nobody knows!"/>
+           <Joke setup=""
+                 punchline="Im reading a book on anti-gravity—its impossible to put down."/>
+           <Joke setup="Why don't scientists trust atoms?"
+                 punchline="They make up everything!"/>
+
         </>
         )
 }
