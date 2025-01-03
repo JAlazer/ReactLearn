@@ -1,6 +1,5 @@
 import Phone from "../assets/phone-icon.png" 
 import MailTo from "../assets/mail-icon.png" 
-import Whiskerson from "../assets/mr-whiskerson.png"
 
 export default function Contact(props) {
     let image = props.img
