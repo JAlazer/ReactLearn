@@ -9,14 +9,14 @@ export default function App() {
             <Header />
             <Entry />
            <Joke setup="What do you call a fake noodle?"
-                 punchline="An impasta!" />
+                 punchline="An impasta!"
+                 upvotes={18} />
            <Joke setup="What do you call a skeleton without a name?"
                  punchline="Nobody knows!"/>
            <Joke setup=""
                  punchline="Im reading a book on anti-gravity—its impossible to put down."/>
            <Joke setup="Why don't scientists trust atoms?"
                  punchline="They make up everything!"/>
-
         </>
         )
 }
