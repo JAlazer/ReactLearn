@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: inter, sans-serif;
 }
 
 .travel-header {
@@ -11,7 +12,6 @@ body {
 }
 
 .travel-header > span {
-    font-family: inter, sans-serif;
     margin-left: 8px;
     color: white;
     font-weight: 500;
@@ -21,3 +21,63 @@ body {
 .travel-header > img {
     width: 24px;
 }
+
+article.journal-entry {
+    display: flex;
+    justify-content: center;
+    padding-top: 44px;
+}
+
+
+/* made container to be able to use object-fitted for the image*/
+.main-image-container {
+    width: 124px;
+    height: 164px;
+    overflow: hidden;
+    border-radius: 5px;
+    flex-shrink: 0px;
+    margin-right: 16px;
+}
+
+.main-image {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.location > img {
+    height: 12px;
+    width: 8px;
+    margin-right: 4px;
+}
+
+.location > span {
+    margin-right: 8px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.location > a {
+    color: rgba(145, 142, 155, 1);
+}
+
+.location-title {
+    font-size: 25px;
+    font-weight: 700;
+    height: 28px;
+    margin-top: 0;
+}
+
+.entry-dates {
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.entry-description {
+    max-width: 324px;
+    height: 44px;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+
