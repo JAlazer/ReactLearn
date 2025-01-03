@@ -1,28 +1,33 @@
-import Whiskerson from "../assets/mr-whiskerson.png"
 import Phone from "../assets/phone-icon.png" 
 import MailTo from "../assets/mail-icon.png" 
+import Whiskerson from "../assets/mr-whiskerson.png"
 
-export default function Contact() {
+export default function Contact(props) {
+    let image = props.img
+    let name = props.name
+    let phoneNumber = props.number 
+    let email = props.email
+
     return (
         <article className="contact-card">
                 <img 
-                    src={Whiskerson}
+                    src={image}
                     alt="Photo of Mr. Whiskerson"
                 />
-                <h3>Mr. Whiskerson</h3>
+                <h3>{name}</h3>
                 <div className="info-group">
                     <img 
                         src={Phone}
                         alt="phone icon" 
                     />
-                    <p>(212) 555-1234</p>
+                    <p>{phoneNumber}</p>
                 </div>
                 <div className="info-group">
                     <img 
                         src={MailTo}
                         alt="mail icon"
                     />
-                    <p>mr.whiskaz@catnap.meow</p>
+                    <p>{email}</p>
                 </div>
         </article>
     )
